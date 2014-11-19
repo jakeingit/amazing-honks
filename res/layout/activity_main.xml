@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/honktext"
+            android:onClick="amazinghonks"
+            android:scaleType="centerCrop"
+            android:src="@drawable/big_clown" />
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="0dp"
+        android:layout_marginTop="70dp"
+        android:background="#CC303030"
+        android:gravity="center"
+        android:text="@string/toptext"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33B5E5" />
+
+</RelativeLayout>
